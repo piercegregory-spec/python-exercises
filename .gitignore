@@ -8,3 +8,10 @@ venv/
 # Movies (large renders stay local)
 *.mp4
 movies/
+
+# Private - never upload
+Redacted_Financials/
+
+# Temp / editor files
+.tmp.driveupload/
+\#*\#
