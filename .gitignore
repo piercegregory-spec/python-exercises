@@ -12,6 +12,21 @@ movies/
 # Private - never upload
 Redacted_Financials/
 
+# Secrets - never upload
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+id_rsa*
+id_ed25519*
+credentials*.json
+client_secret*.json
+service-account*.json
+*secret*.json
+.netrc
+
 # Temp / editor files
 .tmp.driveupload/
 \#*\#
