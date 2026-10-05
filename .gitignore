@@ -1,0 +1,10 @@
+# Python virtual environments
+.venv/
+venv/
+
+# macOS Finder metadata
+.DS_Store
+
+# Movies (large renders stay local)
+*.mp4
+movies/
